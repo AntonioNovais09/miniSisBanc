@@ -10,6 +10,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
+
     Conta conta1 = new Conta ();
     conta1.depositar(1000);
     conta1.retirar(100);
@@ -26,6 +27,14 @@ public class Test {
     System.out.println("Conta2:" + conta2.getSaldo());
     System.out.println("Conta3:" + conta3.getSaldo());
     
+
+		Conta cc = new Conta ();
+		cc.depositar (50.0);
+		cc.setAgencia (123);
+		cc.setNumero (321);
+		
+		cc.depositar(1000);
+
 		
 		
 
