@@ -75,17 +75,12 @@ public class Conta implements Serializable {
 	 * Verifica o Saldo da Conta
 	 * @return Valor do Saldo da Conta
 	 */
-	public double getrSaldo() {
+	public double getSaldo() {
 	
 		return this.saldo;
 		
 	}
 
-	public char[] getSaldo() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
 	
 	
 }
